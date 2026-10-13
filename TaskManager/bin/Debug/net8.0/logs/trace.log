@@ -1,0 +1,106 @@
+23:12:27.890 [STEP ] === Трассировка запущена (runId=f5068b2f) ===
+23:12:33.016 [ENTER] → #1 ConsoleMenu.Handle(выбор="1", commandId=dcfdbf37)
+23:12:35.851 [ENTER]   → #2 TaskService.Add(title="а")
+23:12:35.852 [STEP ]     валидация пройдена, вызываю репозиторий
+23:12:35.852 [ENTER]     → #3 InMemoryTaskRepository.Add(title="а")
+23:12:35.852 [STEP ]       запись добавлена в коллекцию, всего=1
+23:12:35.854 [EXIT ]     ← #3 InMemoryTaskRepository.Add [success, 0.72 мс] — Id=1
+23:12:35.858 [EXIT ]   ← #2 TaskService.Add [success, 7.15 мс] — Id=1
+23:12:35.858 [EXIT ] ← #1 ConsoleMenu.Handle [success, 2841.73 мс]
+23:12:39.342 [ENTER] → #4 ConsoleMenu.Handle(выбор="3", commandId=71ef70de)
+23:12:39.343 [ENTER]   → #5 TaskService.List()
+23:12:39.343 [ENTER]     → #6 InMemoryTaskRepository.List()
+23:12:39.343 [EXIT ]     ← #6 InMemoryTaskRepository.List [success, 0.09 мс] — записей: 1
+23:12:39.343 [EXIT ]   ← #5 TaskService.List [success, 0.65 мс] — записей: 1
+23:12:39.344 [EXIT ] ← #4 ConsoleMenu.Handle [success, 1.40 мс]
+23:12:45.026 [ENTER] → #7 ConsoleMenu.Handle(выбор="2", commandId=dd81372a)
+23:12:46.549 [ENTER]   → #8 TaskService.Remove(id=1)
+23:12:46.549 [ENTER]     → #9 InMemoryTaskRepository.Remove(id=1)
+23:12:46.549 [STEP ]       запись удалена (индекс 0), осталось=0
+23:12:46.549 [EXIT ]     ← #9 InMemoryTaskRepository.Remove [success, 0.29 мс] — Id=1
+23:12:46.551 [EXIT ]   ← #8 TaskService.Remove [success, 1.86 мс] — Id=1
+23:12:46.551 [EXIT ] ← #7 ConsoleMenu.Handle [success, 1524.46 мс]
+23:12:48.085 [ENTER] → #10 ConsoleMenu.Handle(выбор="3", commandId=69a41680)
+23:12:48.085 [ENTER]   → #11 TaskService.List()
+23:12:48.085 [ENTER]     → #12 InMemoryTaskRepository.List()
+23:12:48.085 [EXIT ]     ← #12 InMemoryTaskRepository.List [success, 0.01 мс] — записей: 0
+23:12:48.085 [EXIT ]   ← #11 TaskService.List [success, 0.24 мс] — записей: 0
+23:12:48.086 [EXIT ] ← #10 ConsoleMenu.Handle [success, 1.20 мс]
+23:16:25.647 [STEP ] === Трассировка запущена (runId=95cf4101) ===
+23:16:58.756 [STEP ] === Трассировка запущена (runId=c7993ece) ===
+23:23:01.181 [STEP ] === Трассировка запущена (runId=06f228bf) ===
+23:23:13.687 [ENTER] → #1 ConsoleMenu.Handle(выбор="1", commandId=516980c0)
+23:23:14.916 [ENTER]   → #2 TaskService.Add(title="ф")
+23:23:14.916 [STEP ]     валидация пройдена, вызываю репозиторий
+23:23:14.917 [ENTER]     → #3 InMemoryTaskRepository.Add(title="ф")
+23:23:14.917 [STEP ]       запись добавлена в коллекцию, всего=1
+23:23:14.918 [EXIT ]     ← #3 InMemoryTaskRepository.Add [success, 0.65 мс] — Id=1
+23:23:14.920 [EXIT ]   ← #2 TaskService.Add [success, 4.97 мс] — Id=1
+23:23:14.920 [EXIT ] ← #1 ConsoleMenu.Handle [success, 1233.72 мс]
+23:23:16.657 [ENTER] → #4 ConsoleMenu.Handle(выбор="3", commandId=2c758ef5)
+23:23:16.658 [ENTER]   → #5 TaskService.List()
+23:23:16.658 [ENTER]     → #6 InMemoryTaskRepository.List()
+23:23:16.658 [EXIT ]     ← #6 InMemoryTaskRepository.List [success, 0.10 мс] — записей: 1
+23:23:16.658 [EXIT ]   ← #5 TaskService.List [success, 0.68 мс] — записей: 1
+23:23:16.659 [EXIT ] ← #4 ConsoleMenu.Handle [success, 1.44 мс]
+23:23:20.532 [ENTER] → #7 ConsoleMenu.Handle(выбор="2", commandId=21491128)
+23:23:21.332 [ENTER]   → #8 TaskService.Remove(id=1)
+23:23:21.333 [ENTER]     → #9 InMemoryTaskRepository.Remove(id=1)
+23:23:21.333 [STEP ]       запись удалена (индекс 0), осталось=0
+23:23:21.333 [EXIT ]     ← #9 InMemoryTaskRepository.Remove [success, 0.28 мс] — Id=1
+23:23:21.334 [EXIT ]   ← #8 TaskService.Remove [success, 1.91 мс] — Id=1
+23:23:21.334 [EXIT ] ← #7 ConsoleMenu.Handle [success, 802.11 мс]
+23:23:22.746 [ENTER] → #10 ConsoleMenu.Handle(выбор="3", commandId=2f7cfc3b)
+23:23:22.746 [ENTER]   → #11 TaskService.List()
+23:23:22.746 [ENTER]     → #12 InMemoryTaskRepository.List()
+23:23:22.746 [EXIT ]     ← #12 InMemoryTaskRepository.List [success, 0.01 мс] — записей: 0
+23:23:22.746 [EXIT ]   ← #11 TaskService.List [success, 0.23 мс] — записей: 0
+23:23:22.746 [EXIT ] ← #10 ConsoleMenu.Handle [success, 0.37 мс]
+23:23:36.667 [ENTER] → #13 ConsoleMenu.Handle(выбор="0", commandId=6af42f65)
+23:23:36.668 [EXIT ] ← #13 ConsoleMenu.Handle [success, 0.27 мс] — выход
+23:23:36.669 [STEP ] === Трассировка завершена ===
+23:26:46.392 [STEP ] === Трассировка запущена (runId=4bd4498c) ===
+23:26:52.225 [ENTER] → #1 ConsoleMenu.Handle(выбор="4", commandId=13d593b5)
+23:26:52.227 [ENTER]   → #2 TaskService.Add(title="Купить молоко")
+23:26:52.227 [STEP ]     валидация пройдена, вызываю репозиторий
+23:26:52.227 [ENTER]     → #3 InMemoryTaskRepository.Add(title="Купить молоко")
+23:26:52.227 [STEP ]       запись добавлена в коллекцию, всего=1
+23:26:52.229 [EXIT ]     ← #3 InMemoryTaskRepository.Add [success, 0.84 мс] — Id=1
+23:26:52.232 [EXIT ]   ← #2 TaskService.Add [success, 6.42 мс] — Id=1
+23:26:52.233 [ENTER]   → #4 TaskService.Add(title="Написать отчёт")
+23:26:52.233 [STEP ]     валидация пройдена, вызываю репозиторий
+23:26:52.233 [ENTER]     → #5 InMemoryTaskRepository.Add(title="Написать отчёт")
+23:26:52.233 [STEP ]       запись добавлена в коллекцию, всего=2
+23:26:52.233 [EXIT ]     ← #5 InMemoryTaskRepository.Add [success, 0.02 мс] — Id=2
+23:26:52.234 [EXIT ]   ← #4 TaskService.Add [success, 1.85 мс] — Id=2
+23:26:52.235 [ENTER]   → #6 TaskService.List()
+23:26:52.235 [ENTER]     → #7 InMemoryTaskRepository.List()
+23:26:52.235 [EXIT ]     ← #7 InMemoryTaskRepository.List [success, 0.13 мс] — записей: 2
+23:26:52.236 [EXIT ]   ← #6 TaskService.List [success, 0.76 мс] — записей: 2
+23:26:52.236 [ENTER]   → #8 TaskService.Remove(id=1)
+23:26:52.237 [ENTER]     → #9 InMemoryTaskRepository.Remove(id=1)
+23:26:52.237 [STEP ]       запись удалена (индекс 0), осталось=1
+23:26:52.237 [EXIT ]     ← #9 InMemoryTaskRepository.Remove [success, 0.30 мс] — Id=1
+23:26:52.239 [EXIT ]   ← #8 TaskService.Remove [success, 2.92 мс] — Id=1
+23:26:52.239 [ENTER]   → #10 TaskService.Remove(id=999)
+23:26:52.239 [ENTER]     → #11 InMemoryTaskRepository.Remove(id=999)
+23:26:52.239 [WARN ]     ← #11 InMemoryTaskRepository.Remove [warning, 0.11 мс] — запись не найдена
+23:26:52.241 [WARN ]   ← #10 TaskService.Remove [warning, 1.92 мс] — задача не найдена
+23:26:52.241 [ENTER]   → #12 TaskService.Add(title="   ")
+23:26:52.261 [WARN ]   ← #12 TaskService.Add [warning, 19.85 мс] — пустое название
+23:26:52.305 [ENTER]   → #13 TaskService.Add(title="Эта задача не сохранится")
+23:26:52.305 [STEP ]     валидация пройдена, вызываю репозиторий
+23:26:52.305 [STEP ]     имитация сбоя хранилища: InvalidOperationException
+23:26:52.317 [FAIL ]   ← #13 TaskService.Add [error, 12.29 мс] — InvalidOperationException: Имитация сбоя хранилища (демо).
+23:26:52.322 [ENTER]   → #14 TaskService.List()
+23:26:52.322 [ENTER]     → #15 InMemoryTaskRepository.List()
+23:26:52.322 [EXIT ]     ← #15 InMemoryTaskRepository.List [success, 0.01 мс] — записей: 1
+23:26:52.322 [EXIT ]   ← #14 TaskService.List [success, 0.17 мс] — записей: 1
+23:26:52.323 [EXIT ] ← #1 ConsoleMenu.Handle [success, 97.78 мс]
+23:26:56.379 [ENTER] → #16 ConsoleMenu.Handle(выбор="5", commandId=0de74966)
+23:26:56.379 [ENTER]   → #17 TaskService.Add(title="Эта задача вызовет критическую ошибку")
+23:26:56.379 [STEP ]     валидация пройдена, вызываю репозиторий
+23:26:56.379 [STEP ]     имитация сбоя хранилища: OutOfMemoryException
+23:26:56.390 [FAIL ]   ← #17 TaskService.Add [error, 11.24 мс] — OutOfMemoryException: Имитация нехватки памяти (демо).
+23:26:56.397 [FAIL ] ← #16 ConsoleMenu.Handle [error, 18.33 мс] — OutOfMemoryException, ErrorId=1dc48bb3
+23:26:56.398 [STEP ] === Трассировка завершена ===
